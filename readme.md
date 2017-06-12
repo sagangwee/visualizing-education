@@ -9,7 +9,7 @@ d3? Or Highcharts.js?
 
 If d3:
     How to integrate with React properly?
-	* Victory.js
-	* React-d3
-	* React-d3-components
-	* React-faux-dom
+* Victory.js
+* React-d3
+* React-d3-components
+* React-faux-dom
