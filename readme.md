@@ -34,3 +34,7 @@ For showing property tax data, an interactive map like in [this](http://www.npr.
 
 For achievement with reading, simple graphs should work, but how to make them more exciting? 
 
+## Problem 3: US map with tooltip on hover
+
+Found a good [example](https://vida.io/gists/vfP7KiHLfDbnDWBsX) using jQuery and d3.js. How to integrate this example with React? Should I be using Flux or Redux? Seems unnecessary for this simple app. 
+
