@@ -48,8 +48,9 @@ export default class StateMap extends Component {
 	    },
 
 	    tooltip: {
+	    	borderWidth: 3,
         formatter: function() {
-          var s = '<b>' + this.point.name + '</b><br/>';
+          var s = '<b class="tooltip__header">' + this.point.name + '</b><br/>';
           s += '4th Grade Math - Percent At or Above Proficient: ' + this.point.fm + '%<br/>';
           s += '8th Grade Math - Percent At or Above Proficient: ' + this.point.em + '%<br/>';
           s += '4th Grade Reading - Percent At or Above Proficient: ' + this.point.fr + '%<br/>';
