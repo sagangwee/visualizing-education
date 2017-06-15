@@ -15,6 +15,10 @@ export default class StateMap extends Component {
 	    "Percent of students eligible for free/reduced price lunch": "--"
   	}];
 
+  	for (let o of data) {
+  		o.value = (o.fm + o.em + o.fr + o.er) / 4;
+  	}
+
   	const config = {
   	  chart: {
         spacingBottom: 20
@@ -56,7 +60,6 @@ export default class StateMap extends Component {
 		    map: {
 		      allAreas: false,
 		      joinBy: ['name', 'State'],
-		      keys: ['name', '4th grade math - percent at or above proficient'],
 		      dataLabels: {
             enabled: true,
             format: '{point.properties.postal-code}'
