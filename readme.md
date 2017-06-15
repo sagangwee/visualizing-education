@@ -40,3 +40,9 @@ Found a good [example](https://vida.io/gists/vfP7KiHLfDbnDWBsX) using jQuery and
 
 Highmaps seems easy to use and already has what I'm [looking for](http://jsfiddle.net/gh/get/library/pure/highslide-software/highcharts.com/tree/master/samples/mapdata/countries/us/us-all).
 
+## Problem 4: Math, Reading, Income on traditional bar graphs
+
+Now that I have the math and reading percentages on the US map, I want to display the information side by side for ease of comparison. Maybe something like [this](http://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/css/axis/)?
+
+But should I place the bar graph directly below the map? Or should I place it side by side (there's room on a desktop screen) and then stack them on mobile?
+
