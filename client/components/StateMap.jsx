@@ -26,8 +26,17 @@ export default class StateMap extends Component {
 	    },
 
 	    colorAxis: {
-	      min: 0
+	      min: 0,
+	      max: 100
 	    },
+
+	    tooltip: {
+        formatter: function() {
+          var s = this.point.name + '<br/>';
+          s += 'Value:' + this.point.value + '<br/>';
+          return s;
+       	},
+     	},
 
 	    plotOptions: {
 		    map: {
@@ -35,12 +44,14 @@ export default class StateMap extends Component {
 		      joinBy: ['name', 'State'],
 		      keys: ['name', '4th grade math - percent at or above proficient'],
 		      dataLabels: {
-		        enabled: true,
-		        color: '#BADA55',
-		        style: {
-		          fontWeight: 'bold'
-		        }
-		      },
+            enabled: true,
+            format: '{point.properties.postal-code}'
+        	},
+        	states: {
+            hover: {
+              color: '#a4edba'
+            }
+          },
 		      mapData: USMap
 		    }
 		  },
