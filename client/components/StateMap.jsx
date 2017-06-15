@@ -33,6 +33,7 @@ export default class StateMap extends Component {
 		    map: {
 		      allAreas: false,
 		      joinBy: ['name', 'State'],
+		      keys: ['name', '4th grade math - percent at or above proficient'],
 		      dataLabels: {
 		        enabled: true,
 		        color: '#BADA55',
@@ -40,12 +41,7 @@ export default class StateMap extends Component {
 		          fontWeight: 'bold'
 		        }
 		      },
-		      mapData: USMap,
-		      tooltip: {
-		        headerFormat: '',
-		        pointFormat: '<b>{point.name}</b>: {point.percentage:.1f} %'
-		      }
-
+		      mapData: USMap
 		    }
 		  },
 
