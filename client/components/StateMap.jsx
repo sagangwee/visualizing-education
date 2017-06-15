@@ -43,7 +43,7 @@ export default class StateMap extends Component {
 		      mapData: USMap,
 		      tooltip: {
 		        headerFormat: '',
-		        pointFormat: '{point.name}: <b>{series.name}</b>'
+		        pointFormat: '<b>{point.name}</b>: {point.percentage:.1f} %'
 		      }
 
 		    }
@@ -51,8 +51,14 @@ export default class StateMap extends Component {
 
 	    series: [{
         data: FourthMath,
-        name: 'Random data'
-	    }]
+        name: 'Fourth grade math'
+	    }, {
+        name: 'Separators',
+        type: 'mapline',
+        color: 'silver',
+        showInLegend: false,
+        enableMouseTracking: false
+      	}]
 	  }
 
 	  return (
