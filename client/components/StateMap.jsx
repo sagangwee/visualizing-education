@@ -21,15 +21,17 @@ export default class StateMap extends Component {
 
   	const config = {
   	  chart: {
+  	  	renderTo: 'state-map',
+  	  	className: 'state-map',
         spacingBottom: 20
     	},
 
 	    title: {
-	      text: 'Highmaps basic demo'
+	      text: 'Math, Reading, and Affluence'
 	    },
 
 	    subtitle: {
-	      text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/us/us-all.js">United States of America</a>'
+	      text: 'Source: <a href="http://www.edcounts.org/createtable/step1.php">Education Counts 2015 Data</a>'
 	    },
 
 	    mapNavigation: {
@@ -40,6 +42,7 @@ export default class StateMap extends Component {
 	    },
 
 	    colorAxis: {
+	    	description: 'Average Percentage of 4 scores',
 	      min: 0,
 	      max: 100
 	    },
@@ -87,7 +90,7 @@ export default class StateMap extends Component {
 	  }
 
 	  return (
-	  	<div>
+	  	<div id="state-map">
 	  		<ReactHighmaps config={ config }/>
 	  	</div>
 	  );

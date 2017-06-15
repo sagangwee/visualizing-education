@@ -1,0 +1,18 @@
+#state-map {
+	height: 80vh;
+	width: 100vw;
+}
+
+[data-highcharts-chart="0"] {
+  height: 80vh;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.highcharts-credits {
+  display: none;
+}
+
+.highcharts-background {
+  fill: #feefd5;
+}
