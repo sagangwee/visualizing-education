@@ -38,3 +38,5 @@ For achievement with reading, simple graphs should work, but how to make them mo
 
 Found a good [example](https://vida.io/gists/vfP7KiHLfDbnDWBsX) using jQuery and d3.js. How to integrate this example with React? Should I be using Flux or Redux? Seems unnecessary for this simple app. 
 
+Highmaps seems easy to use and already has what I'm [looking for](http://jsfiddle.net/gh/get/library/pure/highslide-software/highcharts.com/tree/master/samples/mapdata/countries/us/us-all).
+
