@@ -41,6 +41,15 @@ export default class StateMap extends Component {
         }
 	    },
 
+	    legend: {
+	    	title: {
+          text: 'Average Percentage of 4th and 8th grade scores'
+        },
+        backgroundColor: "#fff",
+        borderWidth: 2,
+        margin: 20
+	    },
+
 	    colorAxis: {
 	    	description: 'Average Percentage of 4 scores',
 	      min: 0,
