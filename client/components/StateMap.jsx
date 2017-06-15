@@ -66,6 +66,10 @@ export default class StateMap extends Component {
 		      joinBy: ['name', 'State'],
 		      dataLabels: {
             enabled: true,
+            color: '#3b3b3b;',
+            style: {
+              textOutline: false 
+            },
             format: '{point.properties.postal-code}'
         	},
         	states: {
