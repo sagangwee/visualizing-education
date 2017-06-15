@@ -35,9 +35,9 @@ export default class StateMap extends Component {
 	    },
 
 	    mapNavigation: {
-        enabled: true,
+        enabled: false,
         buttonOptions: {
-          verticalAlign: 'bottom'
+          verticalAlign: 'top'
         }
 	    },
 
