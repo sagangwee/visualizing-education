@@ -1,418 +1,410 @@
 [
   {
     "State": "Alabama",
-    "4th grade math - percent at or above proficient": 26.1,
-    "8th grade math - percent at or above proficient": 17.2,
-    "4th grade reading - percent at or above proficient": 28.7,
-    "8th grade reading - percent at or above proficient": 25.6,
-    "Percent of students eligible for free/reduced price lunch": 51.7
+    "fm": 26.1,
+    "em": 17.2,
+    "fr": 28.7,
+    "er": 25.6,
+    "lunch": 51.7
   },
   {
     "State": "Alaska",
-    "4th grade math - percent at or above proficient": 35.1,
-    "8th grade math - percent at or above proficient": 31.8,
-    "4th grade reading - percent at or above proficient": 29.9,
-    "8th grade reading - percent at or above proficient": 31.4,
-    "Percent of students eligible for free/reduced price lunch": 43.1
+    "fm": 35.1,
+    "em": 31.8,
+    "fr": 29.9,
+    "er": 31.4,
+    "lunch": 43.1
   },
   {
     "State": "Arizona",
-    "4th grade math - percent at or above proficient": 37.8,
-    "8th grade math - percent at or above proficient": 34.8,
-    "4th grade reading - percent at or above proficient": 29.6,
-    "8th grade reading - percent at or above proficient": 31.1,
-    "Percent of students eligible for free/reduced price lunch": 38.9
+    "fm": 37.8,
+    "em": 34.8,
+    "fr": 29.6,
+    "er": 31.1,
+    "lunch": 38.9
   },
   {
     "State": "Arkansas",
-    "4th grade math - percent at or above proficient": 32,
-    "8th grade math - percent at or above proficient": 24.9,
-    "4th grade reading - percent at or above proficient": 31.5,
-    "8th grade reading - percent at or above proficient": 26.8,
-    "Percent of students eligible for free/reduced price lunch": 62.3
+    "fm": 32,
+    "em": 24.9,
+    "fr": 31.5,
+    "er": 26.8,
+    "lunch": 62.3
   },
   {
     "State": "California",
-    "4th grade math - percent at or above proficient": 29.2,
-    "8th grade math - percent at or above proficient": 27.1,
-    "4th grade reading - percent at or above proficient": 27.8,
-    "8th grade reading - percent at or above proficient": 28.4,
-    "Percent of students eligible for free/reduced price lunch": 58.7
+    "fm": 29.2,
+    "em": 27.1,
+    "fr": 27.8,
+    "er": 28.4,
+    "lunch": 58.7
   },
   {
     "State": "Colorado",
-    "4th grade math - percent at or above proficient": 42.7,
-    "8th grade math - percent at or above proficient": 36.9,
-    "4th grade reading - percent at or above proficient": 38.6,
-    "8th grade reading - percent at or above proficient": 38.2,
-    "Percent of students eligible for free/reduced price lunch": 41.6
+    "fm": 42.7,
+    "em": 36.9,
+    "fr": 38.6,
+    "er": 38.2,
+    "lunch": 41.6
   },
   {
     "State": "Connecticut",
-    "4th grade math - percent at or above proficient": 40.9,
-    "8th grade math - percent at or above proficient": 36.1,
-    "4th grade reading - percent at or above proficient": 43.5,
-    "8th grade reading - percent at or above proficient": 43.3,
-    "Percent of students eligible for free/reduced price lunch": 37.7
+    "fm": 40.9,
+    "em": 36.1,
+    "fr": 43.5,
+    "er": 43.3,
+    "lunch": 37.7
   },
   {
     "State": "Delaware",
-    "4th grade math - percent at or above proficient": 36.8,
-    "8th grade math - percent at or above proficient": 29.5,
-    "4th grade reading - percent at or above proficient": 37.1,
-    "8th grade reading - percent at or above proficient": 31.1,
-    "Percent of students eligible for free/reduced price lunch": 37.1
+    "fm": 36.8,
+    "em": 29.5,
+    "fr": 37.1,
+    "er": 31.1,
+    "lunch": 37.1
   },
   {
     "State": "District of Columbia",
-    "4th grade math - percent at or above proficient": 30.7,
-    "8th grade math - percent at or above proficient": 19.1,
-    "4th grade reading - percent at or above proficient": 27.3,
-    "8th grade reading - percent at or above proficient": 18.6,
-    "Percent of students eligible for free/reduced price lunch": 92.5
+    "fm": 30.7,
+    "em": 19.1,
+    "fr": 27.3,
+    "er": 18.6,
+    "lunch": 92.5
   },
   {
     "State": "Florida",
-    "4th grade math - percent at or above proficient": 42,
-    "8th grade math - percent at or above proficient": 26.1,
-    "4th grade reading - percent at or above proficient": 38.5,
-    "8th grade reading - percent at or above proficient": 30.3,
-    "Percent of students eligible for free/reduced price lunch": 58.4
+    "fm": 42,
+    "em": 26.1,
+    "fr": 38.5,
+    "er": 30.3,
+    "lunch": 58.4
   },
   {
     "State": "Georgia",
-    "4th grade math - percent at or above proficient": 34.6,
-    "8th grade math - percent at or above proficient": 28.4,
-    "4th grade reading - percent at or above proficient": 33.6,
-    "8th grade reading - percent at or above proficient": 30.2,
-    "Percent of students eligible for free/reduced price lunch": 62.4
+    "fm": 34.6,
+    "em": 28.4,
+    "fr": 33.6,
+    "er": 30.2,
+    "lunch": 62.4
   },
   {
     "State": "Hawaii",
-    "4th grade math - percent at or above proficient": 38.3,
-    "8th grade math - percent at or above proficient": 30,
-    "4th grade reading - percent at or above proficient": 29.1,
-    "8th grade reading - percent at or above proficient": 25.7,
-    "Percent of students eligible for free/reduced price lunch": 50.1
+    "fm": 38.3,
+    "em": 30,
+    "fr": 29.1,
+    "er": 25.7,
+    "lunch": 50.1
   },
   {
     "State": "Idaho",
-    "4th grade math - percent at or above proficient": 38.2,
-    "8th grade math - percent at or above proficient": 34,
-    "4th grade reading - percent at or above proficient": 36.1,
-    "8th grade reading - percent at or above proficient": 37.2,
-    "Percent of students eligible for free/reduced price lunch": 48.5
+    "fm": 38.2,
+    "em": 34,
+    "fr": 36.1,
+    "er": 37.2,
+    "lunch": 48.5
   },
   {
     "State": "Illinois",
-    "4th grade math - percent at or above proficient": 36.6,
-    "8th grade math - percent at or above proficient": 32.2,
-    "4th grade reading - percent at or above proficient": 35.5,
-    "8th grade reading - percent at or above proficient": 35.1,
-    "Percent of students eligible for free/reduced price lunch": 54.1
+    "fm": 36.6,
+    "em": 32.2,
+    "fr": 35.5,
+    "er": 35.1,
+    "lunch": 54.1
   },
   {
     "State": "Indiana",
-    "4th grade math - percent at or above proficient": 49.7,
-    "8th grade math - percent at or above proficient": 38.7,
-    "4th grade reading - percent at or above proficient": 39.9,
-    "8th grade reading - percent at or above proficient": 37.1,
-    "Percent of students eligible for free/reduced price lunch": 49.1
+    "fm": 49.7,
+    "em": 38.7,
+    "fr": 39.9,
+    "er": 37.1,
+    "lunch": 49.1
   },
   {
     "State": "Iowa",
-    "4th grade math - percent at or above proficient": 44.3,
-    "8th grade math - percent at or above proficient": 37.3,
-    "4th grade reading - percent at or above proficient": 37.7,
-    "8th grade reading - percent at or above proficient": 35.6,
-    "Percent of students eligible for free/reduced price lunch": 40.7
+    "fm": 44.3,
+    "em": 37.3,
+    "fr": 37.7,
+    "er": 35.6,
+    "lunch": 40.7
   },
   {
     "State": "Kansas",
-    "4th grade math - percent at or above proficient": 41.3,
-    "8th grade math - percent at or above proficient": 33.2,
-    "4th grade reading - percent at or above proficient": 35.2,
-    "8th grade reading - percent at or above proficient": 34.8,
-    "Percent of students eligible for free/reduced price lunch": 49.9
+    "fm": 41.3,
+    "em": 33.2,
+    "fr": 35.2,
+    "er": 34.8,
+    "lunch": 49.9
   },
   {
     "State": "Kentucky",
-    "4th grade math - percent at or above proficient": 40.5,
-    "8th grade math - percent at or above proficient": 27.7,
-    "4th grade reading - percent at or above proficient": 40.4,
-    "8th grade reading - percent at or above proficient": 36.1,
-    "Percent of students eligible for free/reduced price lunch": 56.9
+    "fm": 40.5,
+    "em": 27.7,
+    "fr": 40.4,
+    "er": 36.1,
+    "lunch": 56.9
   },
   {
     "State": "Louisiana",
-    "4th grade math - percent at or above proficient": 29.6,
-    "8th grade math - percent at or above proficient": 17.9,
-    "4th grade reading - percent at or above proficient": 28.5,
-    "8th grade reading - percent at or above proficient": 23.3,
-    "Percent of students eligible for free/reduced price lunch": 63.6
+    "fm": 29.6,
+    "em": 17.9,
+    "fr": 28.5,
+    "er": 23.3,
+    "lunch": 63.6
   },
   {
     "State": "Maine",
-    "4th grade math - percent at or above proficient": 41.1,
-    "8th grade math - percent at or above proficient": 35.4,
-    "4th grade reading - percent at or above proficient": 35.6,
-    "8th grade reading - percent at or above proficient": 35.6,
-    "Percent of students eligible for free/reduced price lunch": 47.1
+    "fm": 41.1,
+    "em": 35.4,
+    "fr": 35.6,
+    "er": 35.6,
+    "lunch": 47.1
   },
   {
     "State": "Maryland",
-    "4th grade math - percent at or above proficient": 40.2,
-    "8th grade math - percent at or above proficient": 34.7,
-    "4th grade reading - percent at or above proficient": 36.5,
-    "8th grade reading - percent at or above proficient": 37.4,
-    "Percent of students eligible for free/reduced price lunch": 45
+    "fm": 40.2,
+    "em": 34.7,
+    "fr": 36.5,
+    "er": 37.4,
+    "lunch": 45
   },
   {
     "State": "Massachusetts",
-    "4th grade math - percent at or above proficient": 53.9,
-    "8th grade math - percent at or above proficient": 50.8,
-    "4th grade reading - percent at or above proficient": 49.7,
-    "8th grade reading - percent at or above proficient": 45.7,
-    "Percent of students eligible for free/reduced price lunch": 39.9
+    "fm": 53.9,
+    "em": 50.8,
+    "fr": 49.7,
+    "er": 45.7,
+    "lunch": 39.9
   },
   {
     "State": "Michigan",
-    "4th grade math - percent at or above proficient": 34,
-    "8th grade math - percent at or above proficient": 28.5,
-    "4th grade reading - percent at or above proficient": 28.6,
-    "8th grade reading - percent at or above proficient": 31.8,
-    "Percent of students eligible for free/reduced price lunch": 46.6
+    "fm": 34,
+    "em": 28.5,
+    "fr": 28.6,
+    "er": 31.8,
+    "lunch": 46.6
   },
   {
     "State": "Minnesota",
-    "4th grade math - percent at or above proficient": 53.4,
-    "8th grade math - percent at or above proficient": 47.8,
-    "4th grade reading - percent at or above proficient": 39,
-    "8th grade reading - percent at or above proficient": 39.7,
-    "Percent of students eligible for free/reduced price lunch": 38.3
+    "fm": 53.4,
+    "em": 47.8,
+    "fr": 39,
+    "er": 39.7,
+    "lunch": 38.3
   },
   {
     "State": "Mississippi",
-    "4th grade math - percent at or above proficient": 29.6,
-    "8th grade math - percent at or above proficient": 21.8,
-    "4th grade reading - percent at or above proficient": 26,
-    "8th grade reading - percent at or above proficient": 20,
-    "Percent of students eligible for free/reduced price lunch": 73.7
+    "fm": 29.6,
+    "em": 21.8,
+    "fr": 26,
+    "er": 20,
+    "lunch": 73.7
   },
   {
     "State": "Missouri",
-    "4th grade math - percent at or above proficient": 38.4,
-    "8th grade math - percent at or above proficient": 31.4,
-    "4th grade reading - percent at or above proficient": 36.3,
-    "8th grade reading - percent at or above proficient": 36.3,
-    "Percent of students eligible for free/reduced price lunch": 51.3
+    "fm": 38.4,
+    "em": 31.4,
+    "fr": 36.3,
+    "er": 36.3,
+    "lunch": 51.3
   },
   {
     "State": "Montana",
-    "4th grade math - percent at or above proficient": 40.9,
-    "8th grade math - percent at or above proficient": 38.9,
-    "4th grade reading - percent at or above proficient": 37.3,
-    "8th grade reading - percent at or above proficient": 36.9,
-    "Percent of students eligible for free/reduced price lunch": 43.6
+    "fm": 40.9,
+    "em": 38.9,
+    "fr": 37.3,
+    "er": 36.9,
+    "lunch": 43.6
   },
   {
     "State": "Nebraska",
-    "4th grade math - percent at or above proficient": 45.6,
-    "8th grade math - percent at or above proficient": 37.7,
-    "4th grade reading - percent at or above proficient": 39.9,
-    "8th grade reading - percent at or above proficient": 37.8,
-    "Percent of students eligible for free/reduced price lunch": 44.3
+    "fm": 45.6,
+    "em": 37.7,
+    "fr": 39.9,
+    "er": 37.8,
+    "lunch": 44.3
   },
   {
     "State": "Nevada",
-    "4th grade math - percent at or above proficient": 31.9,
-    "8th grade math - percent at or above proficient": 26.1,
-    "4th grade reading - percent at or above proficient": 29,
-    "8th grade reading - percent at or above proficient": 27.4,
-    "Percent of students eligible for free/reduced price lunch": 52.2
+    "fm": 31.9,
+    "em": 26.1,
+    "fr": 29,
+    "er": 27.4,
+    "lunch": 52.2
   },
   {
     "State": "New Hampshire",
-    "4th grade math - percent at or above proficient": 51.4,
-    "8th grade math - percent at or above proficient": 46.3,
-    "4th grade reading - percent at or above proficient": 45.9,
-    "8th grade reading - percent at or above proficient": 45,
-    "Percent of students eligible for free/reduced price lunch": 29
+    "fm": 51.4,
+    "em": 46.3,
+    "fr": 45.9,
+    "er": 45,
+    "lunch": 29
   },
   {
     "State": "New Jersey",
-    "4th grade math - percent at or above proficient": 46.9,
-    "8th grade math - percent at or above proficient": 46.2,
-    "4th grade reading - percent at or above proficient": 42.8,
-    "8th grade reading - percent at or above proficient": 40.6,
-    "Percent of students eligible for free/reduced price lunch": 36.7
+    "fm": 46.9,
+    "em": 46.2,
+    "fr": 42.8,
+    "er": 40.6,
+    "lunch": 36.7
   },
   {
     "State": "New Mexico",
-    "4th grade math - percent at or above proficient": 26.9,
-    "8th grade math - percent at or above proficient": 20.6,
-    "4th grade reading - percent at or above proficient": 22.9,
-    "8th grade reading - percent at or above proficient": 20.1,
-    "Percent of students eligible for free/reduced price lunch": 62.5
+    "fm": 26.9,
+    "em": 20.6,
+    "fr": 22.9,
+    "er": 20.1,
+    "lunch": 62.5
   },
   {
     "State": "New York",
-    "4th grade math - percent at or above proficient": 34.9,
-    "8th grade math - percent at or above proficient": 30.9,
-    "4th grade reading - percent at or above proficient": 35.7,
-    "8th grade reading - percent at or above proficient": 32.8,
-    "Percent of students eligible for free/reduced price lunch": 50.9
+    "fm": 34.9,
+    "em": 30.9,
+    "fr": 35.7,
+    "er": 32.8,
+    "lunch": 50.9
   },
   {
     "State": "North Carolina",
-    "4th grade math - percent at or above proficient": 44.4,
-    "8th grade math - percent at or above proficient": 32.6,
-    "4th grade reading - percent at or above proficient": 38.5,
-    "8th grade reading - percent at or above proficient": 30.4,
-    "Percent of students eligible for free/reduced price lunch": 57.2
+    "fm": 44.4,
+    "em": 32.6,
+    "fr": 38.5,
+    "er": 30.4,
+    "lunch": 57.2
   },
   {
     "State": "North Dakota",
-    "4th grade math - percent at or above proficient": 44.8,
-    "8th grade math - percent at or above proficient": 39.2,
-    "4th grade reading - percent at or above proficient": 36.8,
-    "8th grade reading - percent at or above proficient": 33.7,
-    "Percent of students eligible for free/reduced price lunch": 30.4
+    "fm": 44.8,
+    "em": 39.2,
+    "fr": 36.8,
+    "er": 33.7,
+    "lunch": 30.4
   },
   {
     "State": "Ohio",
-    "4th grade math - percent at or above proficient": 44.6,
-    "8th grade math - percent at or above proficient": 35.4,
-    "4th grade reading - percent at or above proficient": 37.8,
-    "8th grade reading - percent at or above proficient": 35.5,
-    "Percent of students eligible for free/reduced price lunch": 45.1
+    "fm": 44.6,
+    "em": 35.4,
+    "fr": 37.8,
+    "er": 35.5,
+    "lunch": 45.1
   },
   {
     "State": "Oklahoma",
-    "4th grade math - percent at or above proficient": 36.7,
-    "8th grade math - percent at or above proficient": 22.9,
-    "4th grade reading - percent at or above proficient": 32.6,
-    "8th grade reading - percent at or above proficient": 29.4,
-    "Percent of students eligible for free/reduced price lunch": 60.1
+    "fm": 36.7,
+    "em": 22.9,
+    "fr": 32.6,
+    "er": 29.4,
+    "lunch": 60.1
   },
   {
     "State": "Oregon",
-    "4th grade math - percent at or above proficient": 37.1,
-    "8th grade math - percent at or above proficient": 33.7,
-    "4th grade reading - percent at or above proficient": 33.9,
-    "8th grade reading - percent at or above proficient": 35.7,
-    "Percent of students eligible for free/reduced price lunch": 51.1
+    "fm": 37.1,
+    "em": 33.7,
+    "fr": 33.9,
+    "er": 35.7,
+    "lunch": 51.1
   },
   {
     "State": "Pennsylvania",
-    "4th grade math - percent at or above proficient": 45,
-    "8th grade math - percent at or above proficient": 36,
-    "4th grade reading - percent at or above proficient": 41.2,
-    "8th grade reading - percent at or above proficient": 39.1,
-    "Percent of students eligible for free/reduced price lunch": 45.6
+    "fm": 45,
+    "em": 36,
+    "fr": 41.2,
+    "er": 39.1,
+    "lunch": 45.6
   },
   {
     "State": "Rhode Island",
-    "4th grade math - percent at or above proficient": 37.5,
-    "8th grade math - percent at or above proficient": 32,
-    "4th grade reading - percent at or above proficient": 40.1,
-    "8th grade reading - percent at or above proficient": 34.8,
-    "Percent of students eligible for free/reduced price lunch": 46.8
+    "fm": 37.5,
+    "em": 32,
+    "fr": 40.1,
+    "er": 34.8,
+    "lunch": 46.8
   },
   {
     "State": "South Carolina",
-    "4th grade math - percent at or above proficient": 36,
-    "8th grade math - percent at or above proficient": 25.7,
-    "4th grade reading - percent at or above proficient": 33.5,
-    "8th grade reading - percent at or above proficient": 27.8,
-    "Percent of students eligible for free/reduced price lunch": 55.7
+    "fm": 36,
+    "em": 25.7,
+    "fr": 33.5,
+    "er": 27.8,
+    "lunch": 55.7
   },
   {
     "State": "South Dakota",
-    "4th grade math - percent at or above proficient": 39.8,
-    "8th grade math - percent at or above proficient": 33.7,
-    "4th grade reading - percent at or above proficient": 34.6,
-    "8th grade reading - percent at or above proficient": 34.4,
-    "Percent of students eligible for free/reduced price lunch": 39.5
+    "fm": 39.8,
+    "em": 33.7,
+    "fr": 34.6,
+    "er": 34.4,
+    "lunch": 39.5
   },
   {
     "State": "Tennessee",
-    "4th grade math - percent at or above proficient": 40.2,
-    "8th grade math - percent at or above proficient": 29.2,
-    "4th grade reading - percent at or above proficient": 33.2,
-    "8th grade reading - percent at or above proficient": 32.8,
-    "Percent of students eligible for free/reduced price lunch": 55.9
+    "fm": 40.2,
+    "em": 29.2,
+    "fr": 33.2,
+    "er": 32.8,
+    "lunch": 55.9
   },
   {
     "State": "Texas",
-    "4th grade math - percent at or above proficient": 44,
-    "8th grade math - percent at or above proficient": 32.3,
-    "4th grade reading - percent at or above proficient": 30.6,
-    "8th grade reading - percent at or above proficient": 28,
-    "Percent of students eligible for free/reduced price lunch": 58.7
+    "fm": 44,
+    "em": 32.3,
+    "fr": 30.6,
+    "er": 28,
+    "lunch": 58.7
   },
   {
     "State": "Utah",
-    "4th grade math - percent at or above proficient": 43.8,
-    "8th grade math - percent at or above proficient": 37.9,
-    "4th grade reading - percent at or above proficient": 40.1,
-    "8th grade reading - percent at or above proficient": 38,
-    "Percent of students eligible for free/reduced price lunch": 36.9
+    "fm": 43.8,
+    "em": 37.9,
+    "fr": 40.1,
+    "er": 38,
+    "lunch": 36.9
   },
   {
     "State": "Vermont",
-    "4th grade math - percent at or above proficient": 43.2,
-    "8th grade math - percent at or above proficient": 42.1,
-    "4th grade reading - percent at or above proficient": 44.7,
-    "8th grade reading - percent at or above proficient": 43.8,
-    "Percent of students eligible for free/reduced price lunch": 39
+    "fm": 43.2,
+    "em": 42.1,
+    "fr": 44.7,
+    "er": 43.8,
+    "lunch": 39
   },
   {
     "State": "Virginia",
-    "4th grade math - percent at or above proficient": 47.3,
-    "8th grade math - percent at or above proficient": 37.6,
-    "4th grade reading - percent at or above proficient": 42.9,
-    "8th grade reading - percent at or above proficient": 35.9,
-    "Percent of students eligible for free/reduced price lunch": 40.2
+    "fm": 47.3,
+    "em": 37.6,
+    "fr": 42.9,
+    "er": 35.9,
+    "lunch": 40.2
   },
   {
     "State": "Washington",
-    "4th grade math - percent at or above proficient": 46.9,
-    "8th grade math - percent at or above proficient": 39.3,
-    "4th grade reading - percent at or above proficient": 40.4,
-    "8th grade reading - percent at or above proficient": 37.4,
-    "Percent of students eligible for free/reduced price lunch": 45.9
+    "fm": 46.9,
+    "em": 39.3,
+    "fr": 40.4,
+    "er": 37.4,
+    "lunch": 45.9
   },
   {
     "State": "West Virginia",
-    "4th grade math - percent at or above proficient": 32.6,
-    "8th grade math - percent at or above proficient": 20.5,
-    "4th grade reading - percent at or above proficient": 30,
-    "8th grade reading - percent at or above proficient": 27.2,
-    "Percent of students eligible for free/reduced price lunch": 46.1
+    "fm": 32.6,
+    "em": 20.5,
+    "fr": 30,
+    "er": 27.2,
+    "lunch": 46.1
   },
   {
     "State": "Wisconsin",
-    "4th grade math - percent at or above proficient": 45.4,
-    "8th grade math - percent at or above proficient": 40.8,
-    "4th grade reading - percent at or above proficient": 36.9,
-    "8th grade reading - percent at or above proficient": 39,
-    "Percent of students eligible for free/reduced price lunch": 41.5
+    "fm": 45.4,
+    "em": 40.8,
+    "fr": 36.9,
+    "er": 39,
+    "lunch": 41.5
   },
   {
     "State": "Wyoming",
-    "4th grade math - percent at or above proficient": 48.3,
-    "8th grade math - percent at or above proficient": 35.3,
-    "4th grade reading - percent at or above proficient": 41.2,
-    "8th grade reading - percent at or above proficient": 36,
-    "Percent of students eligible for free/reduced price lunch": 37.6
-  },
-  {
-    "State": "U.S.",
-    "4th grade math - percent at or above proficient": 39.4,
-    "8th grade math - percent at or above proficient": 32.1,
-    "4th grade reading - percent at or above proficient": 34.8,
-    "8th grade reading - percent at or above proficient": 32.7,
-    "Percent of students eligible for free/reduced price lunch": "--"
+    "fm": 48.3,
+    "em": 35.3,
+    "fr": 41.2,
+    "er": 36,
+    "lunch": 37.6
   }
 ]

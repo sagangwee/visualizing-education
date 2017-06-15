@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import ReactHighmaps from 'react-highcharts/ReactHighmaps.src';
 import USMap from '../data/usmap';
+import data from '../data/state-math-reading-lunch.json'
 import FourthMath from '../data/4thgrademath.json';
 
 export default class StateMap extends Component {
   render() {
+  	const USAverages = [{
+	    "State": "U.S.",
+	    "4th grade math - percent at or above proficient": 39.4,
+	    "8th grade math - percent at or above proficient": 32.1,
+	    "4th grade reading - percent at or above proficient": 34.8,
+	    "8th grade reading - percent at or above proficient": 32.7,
+	    "Percent of students eligible for free/reduced price lunch": "--"
+  	}];
+
   	const config = {
   	  chart: {
         spacingBottom: 20
@@ -32,8 +42,12 @@ export default class StateMap extends Component {
 
 	    tooltip: {
         formatter: function() {
-          var s = this.point.name + '<br/>';
-          s += 'Value:' + this.point.value + '<br/>';
+          var s = '<b>' + this.point.name + '</b><br/>';
+          s += '4th Grade Math - Percent At or Above Proficient: ' + this.point.fm + '%<br/>';
+          s += '8th Grade Math - Percent At or Above Proficient: ' + this.point.em + '%<br/>';
+          s += '4th Grade Reading - Percent At or Above Proficient: ' + this.point.fr + '%<br/>';
+          s += '8th Grade Reading - Percent At or Above Proficient: ' + this.point.er + '%<br/>';
+          s += 'Percent of students eligible for free/reduced lunch: ' + this.point.lunch + '%<br/>';
           return s;
        	},
      	},
@@ -49,15 +63,16 @@ export default class StateMap extends Component {
         	},
         	states: {
             hover: {
-              color: '#a4edba'
+              color: '#BADA55'
             }
           },
+          animation: true,
 		      mapData: USMap
 		    }
 		  },
 
 	    series: [{
-        data: FourthMath,
+        data: data,
         name: 'Fourth grade math'
 	    }, {
         name: 'Separators',
