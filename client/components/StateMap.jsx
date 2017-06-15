@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactHighmaps from 'react-highcharts/ReactHighmaps.src';
 import USMap from '../data/usmap';
-import data from '../data/state-math-reading-lunch.json';
+import FourthMath from '../data/4thgrademath.json';
 
 export default class StateMap extends Component {
   render() {
@@ -32,10 +32,10 @@ export default class StateMap extends Component {
 	    plotOptions: {
 		    map: {
 		      allAreas: false,
-		      joinBy: ['iso-a2', 'code'],
+		      joinBy: ['name', 'State'],
 		      dataLabels: {
 		        enabled: true,
-		        color: 'white',
+		        color: '#BADA55',
 		        style: {
 		          fontWeight: 'bold'
 		        }
@@ -50,26 +50,9 @@ export default class StateMap extends Component {
 		  },
 
 	    series: [{
-        data: data,
-        joinBy: ['name', 0],
-        keys: ['name', '4math', '8math', '4read', '8read', 'lunch'],
-        name: 'Random data',
-        states: {
-          hover: {
-            color: '#BADA55'
-          }
-        },
-        dataLabels: {
-            enabled: true,
-            format: '{point.name}'
-        }
-	    }, {
-        name: 'Separators',
-        type: 'mapline',
-        color: 'silver',
-        showInLegend: false,
-        enableMouseTracking: false
-      }]
+        data: FourthMath,
+        name: 'Random data'
+	    }]
 	  }
 
 	  return (
