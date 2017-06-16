@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import AveragedStateMap from '../AveragedStateMap';
-import FourthMath from '../data/4thgrademath.json';
-import EighthMath from '../data/8thgrademath.json';
-import FourthRead from '../data/4thgraderead.json';
-import EighthRead from '../data/8thgraderead.json';
+import StateMap from '../StateMap';
+import FourthMath from '../../data/4thgrademath.json';
+import EighthMath from '../../data/8thgrademath.json';
+import FourthRead from '../../data/4thgraderead.json';
+import EighthRead from '../../data/8thgraderead.json';
 
 class IndexComponent extends Component {
   render() {
@@ -20,7 +20,7 @@ class IndexComponent extends Component {
       <section>
         <h2 className="text-center opening-title">Visualizing Education</h2>
         <StateMap 
-          valueName={fourthReadValueName}
+          valueName={fourthMathValueName}
           chartTitle={fourthMathChartTitle}
           data={FourthMath}
         />
