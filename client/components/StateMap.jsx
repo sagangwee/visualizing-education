@@ -61,7 +61,7 @@ export default class StateMap extends Component {
           s += valueName + ': ' + this.point.value + '%<br/>';
           s += 'Percent of students eligible for free/reduced lunch: ' + this.point.lunch + '%<br/>';
 
-          const tooltipData = [this.point.value, USAverages[valueName], this.point.lunch];
+          const tooltipData = [this.point.value, USAverages[0][valueName], this.point.lunch];
 
           const tooltipConfig = {
             chart: {
