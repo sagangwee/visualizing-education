@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactHighmaps from 'react-highcharts/ReactHighmaps.src';
+import ReactHighcharts from 'react-highcharts';
 import USMap from '../data/usmap';
 
 export default class StateMap extends Component {
@@ -14,6 +15,31 @@ export default class StateMap extends Component {
 	    "8th grade reading - percent at or above proficient": 32.7,
 	    "Percent of students eligible for free/reduced price lunch": "--"
   	}];
+
+    const tooltipConfig = {
+      chart: {
+        type: 'column'
+      },
+      title: {
+        text: "test"
+      },
+      xAxis: {
+        categories: [
+          "Jan"
+        ],
+        crosshair: true
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: "test2"
+        }
+      },
+      series: [{
+        name: "testing",
+        data: [50.0]
+      }]
+    }
 
   	const config = {
   	  chart: {
@@ -58,7 +84,10 @@ export default class StateMap extends Component {
           var s = '<b class="tooltip__header">' + this.point.name + '</b><br/>';
           s += valueName + ': ' + this.point.value + '%<br/>';
           s += 'Percent of students eligible for free/reduced lunch: ' + this.point.lunch + '%<br/>';
-          return s;
+          setTimeout( () => {
+            ReactHighCharts.chart('test', tooltipConfig);
+          }, 10);
+          return '<div id="test"></div>';
        	},
      	},
 
