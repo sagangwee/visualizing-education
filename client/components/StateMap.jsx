@@ -55,7 +55,9 @@ export default class StateMap extends Component {
 
 	    tooltip: {
         useHTML: true,
+        backgroundColor: 'white',
 	    	borderWidth: 3,
+        padding: 10,
         formatter: function() {
           var s = '<b class="tooltip__header">' + this.point.name + '</b><br/>';
           s += valueName + ': ' + this.point.value + '%<br/>';
@@ -66,10 +68,11 @@ export default class StateMap extends Component {
           const tooltipConfig = {
             chart: {
               type: 'column',
-              renderTo: 'tooltipChart'
+              renderTo: 'tooltipChart',
+              spacingBottom: 0
             },
             title: {
-              text: "test"
+              text: ""
             },
             xAxis: {
               categories: [
@@ -87,7 +90,8 @@ export default class StateMap extends Component {
               }
             },
             series: [{
-              name: this.point.name,
+              name: "this.point.name",
+              showInLegend: false,
               data: tooltipData
             }]
           }
@@ -95,7 +99,7 @@ export default class StateMap extends Component {
           setTimeout( () => {
             const chart = new ReactHighcharts.Highcharts.Chart(tooltipConfig); 
           }, 10);
-          return s + '<div id="tooltipChart"></div>';
+          return s + '<br/><div id="tooltipChart"></div>';
        	},
      	},
 

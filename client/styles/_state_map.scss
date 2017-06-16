@@ -9,6 +9,12 @@
   margin: 0 auto;
 }
 
+#tooltipChart {
+  height: 75%;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .highcharts-credits {
   display: none;
 }
@@ -19,9 +25,18 @@
 
 .highcharts-tooltip {
 
+  > span {
+    margin-top: 2vh;
+    height: 50vh;
+  }
+
   .tooltip__header {
   	font-weight: bold;
   	font-size: 14px;
+  }
+
+  .highcharts-background {
+    fill: white;
   }
 }
 
