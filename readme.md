@@ -46,3 +46,7 @@ Now that I have the math and reading percentages on the US map, I want to displa
 
 But should I place the bar graph directly below the map? Or should I place it side by side (there's room on a desktop screen) and then stack them on mobile?
 
+If I am to create a histogram, should I average across all states? How would I display it for each state? Unless I add it to the tooltip in the map...
+
+One thing I could do is split have 4 separate maps, one for each performance percentage, and for each of the maps, display a histogram in the tooltip using [this](https://stackoverflow.com/questions/24627345/create-graph-in-tooltip-of-highchart) method.
+
