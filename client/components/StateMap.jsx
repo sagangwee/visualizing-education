@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import ReactHighmaps from 'react-highcharts/ReactHighmaps.src';
 import USMap from '../data/usmap';
-import data from '../data/state-math-reading-lunch.json'
-import FourthMath from '../data/4thgrademath.json';
 
 export default class StateMap extends Component {
   render() {
-    const { valueName } = this.props;
+    const { valueName, chartTitle, data } = this.props;
 
   	const USAverages = [{
 	    "State": "U.S.",
@@ -25,7 +23,7 @@ export default class StateMap extends Component {
     	},
 
 	    title: {
-	      text: 'Math, Reading, and Affluence'
+	      text: chartTitle
 	    },
 
 	    subtitle: {
@@ -41,7 +39,7 @@ export default class StateMap extends Component {
 
 	    legend: {
 	    	title: {
-          text: 'Average Percentage of 4th and 8th grade scores'
+          text: valueName
         },
         backgroundColor: "#fff",
         borderWidth: 2,
@@ -58,10 +56,7 @@ export default class StateMap extends Component {
 	    	borderWidth: 3,
         formatter: function() {
           var s = '<b class="tooltip__header">' + this.point.name + '</b><br/>';
-          s += '4th Grade Math - Percent At or Above Proficient: ' + this.point.fm + '%<br/>';
-          s += '8th Grade Math - Percent At or Above Proficient: ' + this.point.em + '%<br/>';
-          s += '4th Grade Reading - Percent At or Above Proficient: ' + this.point.fr + '%<br/>';
-          s += '8th Grade Reading - Percent At or Above Proficient: ' + this.point.er + '%<br/>';
+          s += valueName + ': ' + this.point.value + '%<br/>';
           s += 'Percent of students eligible for free/reduced lunch: ' + this.point.lunch + '%<br/>';
           return s;
        	},
