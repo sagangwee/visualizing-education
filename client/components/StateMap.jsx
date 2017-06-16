@@ -16,31 +16,6 @@ export default class StateMap extends Component {
 	    "Percent of students eligible for free/reduced price lunch": "--"
   	}];
 
-    const tooltipConfig = {
-      chart: {
-        type: 'column'
-      },
-      title: {
-        text: "test"
-      },
-      xAxis: {
-        categories: [
-          "Jan"
-        ],
-        crosshair: true
-      },
-      yAxis: {
-        min: 0,
-        title: {
-          text: "test2"
-        }
-      },
-      series: [{
-        name: "testing",
-        data: [50.0]
-      }]
-    }
-
   	const config = {
   	  chart: {
   	  	renderTo: 'state-map',
@@ -85,11 +60,42 @@ export default class StateMap extends Component {
           var s = '<b class="tooltip__header">' + this.point.name + '</b><br/>';
           s += valueName + ': ' + this.point.value + '%<br/>';
           s += 'Percent of students eligible for free/reduced lunch: ' + this.point.lunch + '%<br/>';
-          tooltipConfig.chart.renderTo = 'test';
+
+          const tooltipData = [this.point.value, USAverages[valueName], this.point.lunch];
+
+          const tooltipConfig = {
+            chart: {
+              type: 'column',
+              renderTo: 'tooltipChart'
+            },
+            title: {
+              text: "test"
+            },
+            xAxis: {
+              categories: [
+                valueName,
+                "US Average",
+                "Students eligible for free/reduced price lunch"
+              ],
+              crosshair: true
+            },
+            yAxis: {
+              min: 0,
+              max: 100,
+              title: {
+                text: "Percentage"
+              }
+            },
+            series: [{
+              name: this.point.name,
+              data: tooltipData
+            }]
+          }
+
           setTimeout( () => {
             const chart = new ReactHighcharts.Highcharts.Chart(tooltipConfig); 
           }, 10);
-          return '<div id="test"></div>';
+          return s + '<div id="tooltipChart"></div>';
        	},
      	},
 
