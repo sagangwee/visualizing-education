@@ -6,8 +6,6 @@ import FourthMath from '../data/4thgrademath.json';
 
 export default class StateMap extends Component {
   render() {
-    const { valueName } = this.props;
-
   	const USAverages = [{
 	    "State": "U.S.",
 	    "4th grade math - percent at or above proficient": 39.4,
@@ -16,6 +14,10 @@ export default class StateMap extends Component {
 	    "8th grade reading - percent at or above proficient": 32.7,
 	    "Percent of students eligible for free/reduced price lunch": "--"
   	}];
+
+  	for (let o of data) {
+  		o.value = (o.fm + o.em + o.fr + o.er) / 4;
+  	}
 
   	const config = {
   	  chart: {

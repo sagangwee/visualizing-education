@@ -1,257 +1,257 @@
 [
   {
     "State": "Alabama",
-    "value": 26.1,
+    "value": 28.7,
     "lunch": 51.7
   },
   {
     "State": "Alaska",
-    "value": 35.1,
+    "value": 29.9,
     "lunch": 43.1
   },
   {
     "State": "Arizona",
-    "value": 37.8,
+    "value": 29.6,
     "lunch": 38.9
   },
   {
     "State": "Arkansas",
-    "value": 32,
+    "value": 31.5,
     "lunch": 62.3
   },
   {
     "State": "California",
-    "value": 29.2,
+    "value": 27.8,
     "lunch": 58.7
   },
   {
     "State": "Colorado",
-    "value": 42.7,
+    "value": 38.6,
     "lunch": 41.6
   },
   {
     "State": "Connecticut",
-    "value": 40.9,
+    "value": 43.5,
     "lunch": 37.7
   },
   {
     "State": "Delaware",
-    "value": 36.8,
+    "value": 37.1,
     "lunch": 37.1
   },
   {
     "State": "District of Columbia",
-    "value": 30.7,
+    "value": 27.3,
     "lunch": 92.5
   },
   {
     "State": "Florida",
-    "value": 42,
+    "value": 38.5,
     "lunch": 58.4
   },
   {
     "State": "Georgia",
-    "value": 34.6,
+    "value": 33.6,
     "lunch": 62.4
   },
   {
     "State": "Hawaii",
-    "value": 38.3,
+    "value": 29.1,
     "lunch": 50.1
   },
   {
     "State": "Idaho",
-    "value": 38.2,
+    "value": 36.1,
     "lunch": 48.5
   },
   {
     "State": "Illinois",
-    "value": 36.6,
+    "value": 35.5,
     "lunch": 54.1
   },
   {
     "State": "Indiana",
-    "value": 49.7,
+    "value": 39.9,
     "lunch": 49.1
   },
   {
     "State": "Iowa",
-    "value": 44.3,
+    "value": 37.7,
     "lunch": 40.7
   },
   {
     "State": "Kansas",
-    "value": 41.3,
+    "value": 35.2,
     "lunch": 49.9
   },
   {
     "State": "Kentucky",
-    "value": 40.5,
+    "value": 40.4,
     "lunch": 56.9
   },
   {
     "State": "Louisiana",
-    "value": 29.6,
+    "value": 28.5,
     "lunch": 63.6
   },
   {
     "State": "Maine",
-    "value": 41.1,
+    "value": 35.6,
     "lunch": 47.1
   },
   {
     "State": "Maryland",
-    "value": 40.2,
+    "value": 36.5,
     "lunch": 45
   },
   {
     "State": "Massachusetts",
-    "value": 53.9,
+    "value": 49.7,
     "lunch": 39.9
   },
   {
     "State": "Michigan",
-    "value": 34,
+    "value": 28.6,
     "lunch": 46.6
   },
   {
     "State": "Minnesota",
-    "value": 53.4,
+    "value": 39,
     "lunch": 38.3
   },
   {
     "State": "Mississippi",
-    "value": 29.6,
+    "value": 26,
     "lunch": 73.7
   },
   {
     "State": "Missouri",
-    "value": 38.4,
+    "value": 36.3,
     "lunch": 51.3
   },
   {
     "State": "Montana",
-    "value": 40.9,
+    "value": 37.3,
     "lunch": 43.6
   },
   {
     "State": "Nebraska",
-    "value": 45.6,
+    "value": 39.9,
     "lunch": 44.3
   },
   {
     "State": "Nevada",
-    "value": 31.9,
+    "value": 29,
     "lunch": 52.2
   },
   {
     "State": "New Hampshire",
-    "value": 51.4,
+    "value": 45.9,
     "lunch": 29
   },
   {
     "State": "New Jersey",
-    "value": 46.9,
+    "value": 42.8,
     "lunch": 36.7
   },
   {
     "State": "New Mexico",
-    "value": 26.9,
+    "value": 22.9,
     "lunch": 62.5
   },
   {
     "State": "New York",
-    "value": 34.9,
+    "value": 35.7,
     "lunch": 50.9
   },
   {
     "State": "North Carolina",
-    "value": 44.4,
+    "value": 38.5,
     "lunch": 57.2
   },
   {
     "State": "North Dakota",
-    "value": 44.8,
+    "value": 36.8,
     "lunch": 30.4
   },
   {
     "State": "Ohio",
-    "value": 44.6,
+    "value": 37.8,
     "lunch": 45.1
   },
   {
     "State": "Oklahoma",
-    "value": 36.7,
+    "value": 32.6,
     "lunch": 60.1
   },
   {
     "State": "Oregon",
-    "value": 37.1,
+    "value": 33.9,
     "lunch": 51.1
   },
   {
     "State": "Pennsylvania",
-    "value": 45,
+    "value": 41.2,
     "lunch": 45.6
   },
   {
     "State": "Rhode Island",
-    "value": 37.5,
+    "value": 40.1,
     "lunch": 46.8
   },
   {
     "State": "South Carolina",
-    "value": 36,
+    "value": 33.5,
     "lunch": 55.7
   },
   {
     "State": "South Dakota",
-    "value": 39.8,
+    "value": 34.6,
     "lunch": 39.5
   },
   {
     "State": "Tennessee",
-    "value": 40.2,
+    "value": 33.2,
     "lunch": 55.9
   },
   {
     "State": "Texas",
-    "value": 44,
+    "value": 30.6,
     "lunch": 58.7
   },
   {
     "State": "Utah",
-    "value": 43.8,
+    "value": 40.1,
     "lunch": 36.9
   },
   {
     "State": "Vermont",
-    "value": 43.2,
+    "value": 44.7,
     "lunch": 39
   },
   {
     "State": "Virginia",
-    "value": 47.3,
+    "value": 42.9,
     "lunch": 40.2
   },
   {
     "State": "Washington",
-    "value": 46.9,
+    "value": 40.4,
     "lunch": 45.9
   },
   {
     "State": "West Virginia",
-    "value": 32.6,
+    "value": 30,
     "lunch": 46.1
   },
   {
     "State": "Wisconsin",
-    "value": 45.4,
+    "value": 36.9,
     "lunch": 41.5
   },
   {
     "State": "Wyoming",
-    "value": 48.3,
+    "value": 41.2,
     "lunch": 37.6
   }
 ]

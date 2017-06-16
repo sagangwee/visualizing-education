@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StateMap from '../StateMap';
+import AveragedStateMap from '../AveragedStateMap';
 
 class IndexComponent extends Component {
   render() {
@@ -7,7 +7,7 @@ class IndexComponent extends Component {
     return (
       <section>
         <h2 className="text-center opening-title">Visualizing Education</h2>
-        <StateMap/>
+        <AveragedStateMap/>
       </section>
     );
   }
