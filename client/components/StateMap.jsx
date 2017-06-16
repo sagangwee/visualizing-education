@@ -79,13 +79,15 @@ export default class StateMap extends Component {
 	    },
 
 	    tooltip: {
+        useHTML: true,
 	    	borderWidth: 3,
         formatter: function() {
           var s = '<b class="tooltip__header">' + this.point.name + '</b><br/>';
           s += valueName + ': ' + this.point.value + '%<br/>';
           s += 'Percent of students eligible for free/reduced lunch: ' + this.point.lunch + '%<br/>';
+          tooltipConfig.chart.renderTo = 'test';
           setTimeout( () => {
-            ReactHighCharts.chart('test', tooltipConfig);
+            const chart = new ReactHighcharts.Highcharts.Chart(tooltipConfig); 
           }, 10);
           return '<div id="test"></div>';
        	},
