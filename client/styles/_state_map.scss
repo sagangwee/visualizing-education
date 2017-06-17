@@ -1,9 +1,13 @@
 #state-map {
 	height: 80vh;
 	width: 100vw;
+
+  & + #state-map {
+    margin-top: 20vh;
+  }
 }
 
-[data-highcharts-chart="0"] {
+[data-highcharts-chart="0"], [data-highcharts-chart="1"], [data-highcharts-chart="2"], [data-highcharts-chart="3"] {
   height: 95vh;
   width: 60vw;
   margin: 0 auto;

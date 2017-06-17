@@ -24,6 +24,24 @@ class IndexComponent extends Component {
           chartTitle={fourthMathChartTitle}
           data={FourthMath}
         />
+
+        <StateMap 
+          valueName={eighthMathValueName}
+          chartTitle={eighthMathChartTitle}
+          data={EighthMath}
+        />
+
+        <StateMap 
+          valueName={fourthReadValueName}
+          chartTitle={fourthReadChartTitle}
+          data={FourthRead}
+        />
+
+        <StateMap 
+          valueName={eighthReadValueName}
+          chartTitle={eighthReadChartTitle}
+          data={EighthRead}
+        />
       </section>
     );
   }
