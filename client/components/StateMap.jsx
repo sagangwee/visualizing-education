@@ -6,7 +6,7 @@ import uniqueId from 'lodash.uniqueid';
 
 export default class StateMap extends Component {
   componentWillMount() {
-    const id = _.uniqueId("prefix-");
+    const id = uniqueId("tooltipChart-");
     this.setState({id: id});
   }
 
@@ -76,7 +76,7 @@ export default class StateMap extends Component {
           const tooltipConfig = {
             chart: {
               type: 'column',
-              renderTo: 'tooltipChart',
+              renderTo: id,
               spacingBottom: 0
             },
             title: {
