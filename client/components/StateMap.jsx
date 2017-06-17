@@ -2,9 +2,17 @@ import React, { Component } from 'react';
 import ReactHighmaps from 'react-highcharts/ReactHighmaps.src';
 import ReactHighcharts from 'react-highcharts';
 import USMap from '../data/usmap';
+import uniqueId from 'lodash.uniqueid';
 
 export default class StateMap extends Component {
+  componentWillMount() {
+    const id = _.uniqueId("prefix-");
+    this.setState({id: id});
+  }
+
   render() {
+    const id = this.state.id;
+
     const { valueName, chartTitle, data } = this.props;
 
   	const USAverages = [{
@@ -99,7 +107,7 @@ export default class StateMap extends Component {
           setTimeout( () => {
             const chart = new ReactHighcharts.Highcharts.Chart(tooltipConfig); 
           }, 10);
-          return s + '<br/><div id="tooltipChart"></div>';
+          return s + '<br/><div id=' + id + '></div>';
        	},
      	},
 
