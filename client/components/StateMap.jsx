@@ -6,12 +6,12 @@ import uniqueId from 'lodash.uniqueid';
 
 export default class StateMap extends Component {
   componentWillMount() {
-    const id = uniqueId("tooltipChart-");
-    this.setState({id: id});
+    const tooltipId = uniqueId("tooltipChart-");
+    this.setState({tooltipId: tooltipId});
   }
 
   render() {
-    const id = this.state.id;
+    const tooltipId = this.state.tooltipId;
 
     const { valueName, chartTitle, data } = this.props;
 
@@ -76,7 +76,7 @@ export default class StateMap extends Component {
           const tooltipConfig = {
             chart: {
               type: 'column',
-              renderTo: id,
+              renderTo: tooltipId,
               spacingBottom: 0
             },
             title: {
@@ -107,7 +107,7 @@ export default class StateMap extends Component {
           setTimeout( () => {
             const chart = new ReactHighcharts.Highcharts.Chart(tooltipConfig); 
           }, 10);
-          return s + '<br/><div id=' + id + '></div>';
+          return s + '<br/><div id=' + tooltipId + '></div>';
        	},
      	},
 
