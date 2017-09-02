@@ -1,5 +1,13 @@
 # Visualizing Education
 
+### Running the app
+
+```
+npm start
+```
+
+Then go to [localhost:3001](http://127.0.0.1:3001/)
+
 ## Goal
 Visualize correlations of academic achievement with:
 
